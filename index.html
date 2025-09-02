@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="popup-main">
+        <div class="popup-container">
+            <h3 onclick="popUp()"><i class="fa-solid fa-xmark"></i></h3>
+            <h1>Big Sale!</h1>
+            <h2>Save Upto 50% On all items</h2>
+            <button>Shop Now</button>
+            <div class="countdown-main">
+                <h4>Sale Ending in :</h4>
+                <div class="countdown-box">
+                    <div class="time-box">
+                        <div id="hours">1</div>
+                        <span class="time-box-span">Hours</span>
+                    </div>
+                    <div class="time-box">
+                        <div id="minutes">30</div>
+                        <span class="time-box-span">Minutes</span>
+                    </div>
+                    <div class="time-box">
+                        <div id="seconds">10</div>
+                        <span class="time-box-span">Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="chat-box-popup">
+        <div class="chat-box-text-show"><img class="cross-img" src="cross-svgrepo-com (1).svg" alt=""
+                onclick="customerCarePopupText()">
+            Chat Now For Best Deals & Shopping Assistance!
+        </div>
+        <div class="customer-cross-img-show"><img class="customer-img" src="customer care photo.jpg" alt="">
+            <img class="customer-cross-img" src="cross-svgrepo-com (1).svg" alt="" onclick="customerCarePopupimg()">
+        </div>
+        <div class="chat-box-popup-feedback">Feedback</div>
+    </div>
+    <header>
+        <ul class="header-left">
+            <li><img src="./Samsung_logo1-removebg-preview.png" alt="logo" width="145px"></li>
+
+            <!-- SHOP -->
+
+            <li class="shop">Shop
+                <ul class="shop-menu">
+                    <li>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/Galaxy-Z_Fold7_GNB_L1_Shop_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Z Fold7</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/GNB_L1_Menu_B7_250611.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Z Flip7</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/shop/GNB_Shop_L1_01_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy S25 Ultra</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/shop/GNB_Galaxy-S25-Edge_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy S25 Edge</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/GNB_L1_Mobile_Galaxy-Watches_update_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Watch8</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/GNB_L1_Mobile_Galaxy-Watches_ultra_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Watch Ultra</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/gnb/Galaxy_Ring_80X80-1.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Ring</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/gnb/GNB-Icons_88x88.jpg?$ORIGIN_JPG$"
+                                alt="">
+                            <p>Bespoke AI Refrigerator</p>
+                        </div>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/gnb/GNB_WM_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Bespoke AI Laundry</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/gnb/GNB_AC_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Bespoke AI WindFree AC</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/shop/GNB_Shop_L1_09_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Book5 Pro</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/shop/GNB_Shop_L1_10_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Neo QLED 8K TV</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/shop/GNB_Shop_L1_12_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Q-series Soundbar</p>
+                        </div>
+                        <div class="shop-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/shop/GNB_Shop_L1_13_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Odyssey OLED G8</p>
+                        </div>
+
+                    </li>
+                    <li></li>
+                    <li>
+                        <div class="shop-product-card-right">
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/shop/gnb_thumbnail_of_banner_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Buy Direct Get More</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/gnb/GNB_L1_Banner_SmartThings_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>SmartThings</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/gnb/samsung-live.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Samsung live</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/gnb/GNB_Shop_SC_plus_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Samsung care+</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/shop/GNB_Shop_Banner_05_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Discover AI</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/home/250717/Forstudentsyouth.jpg?$ORIGIN_JPG$"
+                                    width="70px" height="60px" alt="">
+                                <p>For Student & Youth</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/gnb/SamsungBKC.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Samsung BKC</p>
+                            </div>
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/home/250717/Corporate-employees88X88.jpg?$ORIGIN_JPG$"
+                                    width="70px" height="60px" alt="">
+                                <p>For Corporate Employes</p>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </li>
+
+            <!-- MOBILE -->
+
+            <li class="mobile">Mobile
+                <ul class="mobile-menu">
+                    <li>
+                        <div class="mobile-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/Galaxy-Smartphone_GNB_L1_Menu_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Smartphone</p>
+                        </div>
+                        <div class="mobile-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/mobile/GNB_Mobile_L1_02_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Tab</p>
+                        </div>
+                        <div class="mobile-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/mobile/GNB_Mobile_L1_03_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Book</p>
+                        </div>
+                        <div class="mobile-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/GNB_L1_Mobile_Galaxy-Watches_ultra_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Watch</p>
+                        </div>
+                        <div class="mobile-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/mobile/GNB_Mobile_L1_05_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Buds</p>
+                        </div>
+                        <div class="mobile-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/mobile/GNB_Mobile_L1_06_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Ring</p>
+                        </div>
+                        <div class="mobile-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/Galaxy-Accessories_GNB_L1_Menu_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Accessories</p>
+                        </div>
+
+                    </li>
+                    <li></li>
+                    <li>
+                        <div class="mobile-product-card-right">
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/Discover-Mobile_GNB_Banner-Thumbnail_PC_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Discover Mobile</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/Galaxy-AI_GNB_Banner-Thumbnail_PC_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Galaxy AI</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/mobile/GNB_Mobile_Banner_03_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>One UI</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/Samsung-Health_GNB_Banner-Thumbnail_PC_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Samsung Health</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/mobile/GNB_Mobile_Banner_05_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Apps & Services</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/Why-Galaxy_GNB_Banner-Thumbnail_PC_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Why Galaxy</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/Switch-to-Galaxy_GNB_Banner-Thumbnail_PC_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Switch to Galaxy</p>
+                            </div>
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/mobile/GNB_Mobile_Banner_08_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Mobile Trade-In</p>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </li>
+
+            <!-- TV & AV -->
+
+            <li class="tv">TV & AV
+                <ul class="tv-menu">
+                    <li>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_02_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Neo QLED</p>
+                        </div>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_03_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>OLED</p>
+                        </div>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_04_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>QLED</p>
+                        </div>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_05_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Crystal UHD</p>
+                        </div>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_06_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>The Frame</p>
+                        </div>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_07_88x88_0522.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>The Serif</p>
+                        </div>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_09_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>The Sero</p>
+                        </div>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_10_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Sound Devices</p>
+                        </div>
+                        </div>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_11_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Projectors</p>
+                        </div>
+                        <div class="tv-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_L1_12_88x88_0522.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>TV Accessories</p>
+                        </div>
+
+                    </li>
+                    <li></li>
+                    <li>
+                        <div class="tv-product-card-right">
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_Banner_01_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Samsung Vision AI</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_Banner_02_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Why Samsung TV</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_Banner_03_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Why OLED</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_Banner_04_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Why Neo QLED</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/tv-and-av/GNB_TV-AV_Banner_05_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Why The Frame</p>
+                            </div>
+
+
+                        </div>
+
+                    </li>
+                </ul>
+            </li>
+
+            <!-- APPLIANCE -->
+
+            <li class="appliance">Appliances
+                <ul class="appliance-menu">
+                    <li>
+                        <div class="appliance-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_L1_01_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Refrigerator</p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_L1_05_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Microwaves</p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_L1_06_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Dishwashers</p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="" alt="">
+                            <p></p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/gnb/GNB_WM_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Washing Machine</p>
+                        </div>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_L1_11_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Air Conditioners</p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_L1_09_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Jet Stick Vacuums</p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_L1_12_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Air Purifier</p>
+                        </div>
+                        <div class="appliance-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_L1_13_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Appliances Accessories</p>
+                        </div>
+
+
+                    </li>
+                    <li></li>
+                    <li>
+                        <div class="appliance-product-card-right">
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_Banner_3-1_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Bespoke AI</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_Banner_3-3_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>AI Energy Saving</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_Banner_05_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Refrigerator Buying Guide</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_Banner_06_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Laundry Buying Guide</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/appliances/GNB_Appliance_Banner_08_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Cooking Buying Guide</p>
+                            </div>
+
+
+                        </div>
+
+                    </li>
+                </ul>
+            </li>
+
+            <!-- COMPUTING & DISPLAYS -->
+
+            <li class="computing">Computing & Displays
+                <ul class="computing-menu">
+                    <li>
+                        <div class="computing-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/computing-and-displays/GNB_Computing_L1_01_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Book & Laptop</p>
+                        </div>
+                        <div class="computing-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/computing-and-displays/GNB_Computing_L1_02_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Monitors</p>
+                        </div>
+                        <div class="computing-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/computing-and-displays/GNB_Computing_L1_2-3_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Memory & Storage</p>
+                        </div>
+                        <div class="computing-product-card-left">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/computing-and-displays/GNB_Computing_L1_04_88x88_0522.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Book Accessories</p>
+                        </div>
+
+
+
+                    </li>
+                    <li></li>
+                    <li>
+                        <div class="computing-product-card-right">
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/computing-and-displays/GNB_Computing_Banner_04_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Why Odyssey Gaming Monitor</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/computing-and-displays/GNB_Computing_Banner_05_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Why ViweFinity High Resolution</p>
+                            </div>
+
+                            <div><img
+                                    src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/computing-and-displays/GNB_Computing_Banner_07_88x88.png?$ORIGIN_PNG$"
+                                    width="70px" height="60px" alt="">
+                                <p>Help choose my monitor</p>
+                            </div>
+
+
+                        </div>
+
+                    </li>
+                </ul>
+
+            </li>
+
+            <!-- ACCESSORIES -->
+
+            <li class="accessories">Accessories
+                <ul class="accessories-menu">
+                    <li>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/accessories/GNB_Accessories_L1_01_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Smartphone Accessories</p>
+                        </div>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/accessories/GNB_Accessories_L1_02_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Tab Accessories</p>
+                        </div>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/f2507/gnb/GNB_L1_Accessories_Watch-Accessories_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Watch Accessories</p>
+                        </div>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/accessories/GNB_Accessories_L1_05_88x88_0522.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Galaxy Book Accessories</p>
+                        </div>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/accessories/GNB_Accessories_L1_06_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>SmartTag</p>
+                        </div>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/accessories/GNB_Accessories_L1_07_88x88_0522.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>TV Accessories</p>
+                        </div>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/revamp/gnb/accessories/GNB_Accessories_L1_09_1_88x88_0522.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Projector Accessories</p>
+                        </div>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/gnb/250703/GNB-Icons_88x88.jpg?$ORIGIN_JPG$"
+                                alt="">
+                            <p>Refrigerator Accessories</p>
+                        </div>
+                        </div>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/gnb/250703/GNB_WM_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>Washing Machine Accessories</p>
+                        </div>
+                        <div class="accessories-product-card">
+                            <img src="https://images.samsung.com/is/image/samsung/assets/in/gnb/250703/GNB-AC_88x88.png?$ORIGIN_PNG$"
+                                alt="">
+                            <p>AirConditioner Accessories</p>
+                        </div>
+
+
+
+
+                    </li>
+
+                </ul>
+
+            </li>
+            </li>
+        </ul>
+        <div class="header-right">
+            <div>
+                <span>Support</span>
+                <span>For Bussines<i class="fa-solid fa-arrow-up"></i></span>
+            </div>
+
+            <div>
+                <span><i class="fa-solid fa-magnifying-glass"></i><input type="text">
+                </span>
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                <span><i class="fa-solid fa-user"></i></span>
+                <span class="hamburger-span"><i class="fa-solid fa-bars" onclick="Hamburgershow()"></i>
+                    <div class="hamburger-div-hide">
+                        <img src="./cross-svgrepo-com (1).svg" alt="" class="cross-img" onclick="Hamburgerhide()">
+                        <div>Settings</div>
+                        <div>Services</div>
+                        <div>About</div>
+                        <div>Log Out</div>
+                </span>
+
+            </div>
+            <div class="hamburger-backdrop-hide"></div>
+
+        </div>
+
+    </header>
+    <section class="first-section">
+        <video
+            src="https://images.samsung.com/in/smartphones/galaxy-z-fold7/videos/galaxy-z-fold7-features-unveiling.webm?imbypass=true"
+            autoplay muted loop></video>
+        <div class="video-text">
+            <p>Galaxy Z Fold7  </p>
+            <p>Galaxy AI</p>
+            
+            <div class="video-text-learn"><span>Learn more</span>
+                <span><a>Buy</a></span>
+            </div>
+        </div>
+    </section>
+    <div class="gap"></div>
+
+    <section class="second-section">
+        <img src="https://images.samsung.com/is/image/samsung/assets/in/multistore/corporate/first-banner-update.jpg?$1440_N_JPG$" alt="">
+            <div class="student-img-text">
+                <h4>Start School <br>Stand out</h4>
+                <p>Team up and tackle math with <br>Galaxy AI</p>
+                <a href="">Buy</a>
+            </div>
+    </section>
+    <div class="gap"></div>
+
+    <section class="section-third">
+        <div class="firstdiv">
+            <p>Galaxy Z Flip7</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/f2507/gallery/in-galaxy-zflip7-f766-sm-f766bdbeins-547545336?imbypass=true"
+                alt=""><button>Buy</button>
+        </div>
+        <div class="seconddiv">
+            <p>Galaxy Watch8 Classic</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/f2507/gallery/in-galaxy-watch8-classic-l500-sm-l500nzkains-547659988?$684_547_PNG$"
+                alt=""><button>Buy</button>
+        </div>
+        <div class="thirddiv">
+            <p>Galaxy Watch8</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/f2507/gallery/in-galaxy-watch8-l320-sm-l320nzsains-547660098?$684_547_PNG$"
+                alt=""><button>Buy</button>
+        </div>
+        <div class="fourdiv">
+            <p>Galaxy Book4 Edge</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/np750xqb-ka1in/gallery/in-galaxy-book4-edge-15-inch-np750xqbb-np750xqb-ka1in-thumb-548082110"
+                alt=""><button>Buy</button>
+        </div>
+    </section>
+    <div class="gap"></div>
+
+    <section class="four-section">
+        <div class="first-div">
+            <p>2025 AI TVs</p>
+            <p>Explore new AI TVs</p>
+            <div class="learn"> <span>Learn more</span>
+                <span><a>View all</a></span>
+            </div>
+        </div>
+        <div class="second-div">
+            <img src="https://img.global.news.samsung.com/my/wp-content/uploads/2024/04/TV-2024-PO-PR-Banner-800x418.jpg"
+                alt="">
+            <div class="second-div-ai-text">
+                <p>Samsung Vision AI is here</p>
+                <p>QLED | NeoQLED | NeoQLED 8K | OLED | The Frame</p>
+            </div>
+        </div>
+        <div class="second-div-ai-text"></div>
+    </section>
+    <div class="gap"></div>
+
+
+    <!-- five section is same as third section so use class third section-->
+    <!-- five section -->
+    <section class="section-third">
+        <div class="firstdiv">
+            <p>Neo QLED 8K</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/qa85qn900ckxxl/gallery/in-qled-qn900c-qa85qn900ckxxl-535909939"
+                alt=""><button>Buy</button>
+        </div>
+        <div class="seconddiv">
+            <p>The Frame</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/qa43ls03faulxl/gallery/in-the-frame-ls03f-qa43ls03faulxl-545382018?$684_547_PNG$"
+                alt=""><button>Buy</button>
+        </div>
+        <div class="thirddiv">
+            <p>Q-Series Soundbar</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/hw-q990f-xl/gallery/in-q-series-soundbar-hw-q990f-hw-q990f-xl-546640131?$684_547_PNG$"
+                alt=""><button>Buy</button>
+        </div>
+        <div class="fourdiv">
+            <p>Smart Laptops</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/np750xqb-ka1in/gallery/in-galaxy-book4-edge-15-inch-np750xqbb-np750xqb-ka1in-thumb-548082110"
+                alt=""><button>Buy</button>
+        </div>
+
+    </section>
+    <div class="gap"></div>
+
+
+    <section class="six-section">
+        <img src="https://images.samsung.com/is/image/samsung/assets/in/washers-and-dryers/bespoke-ai-laundry-combo/26989_WM-T-combo-KV_1440x640_v3.jpg?$1440_N_JPG$"
+            alt="">
+        <div class="six-section-div">
+            <p>Bespoke AI Laundry Combo</p>
+            <div class="learn2"><span>Learn more</span>
+                <span><a>Buy</a></span>
+            </div>
+        </div>
+    </section>
+    <div class="gap"></div>
+    <!-- seven section is same as third section so use class third section-->
+    <!-- seven section -->
+
+    <section class="section-third">
+        <div class="firstdiv">
+            <p>Bespoke AI Refrigerator</p>
+            <img src="https://www.shutterstock.com/image-photo/indoor-photo-bright-modern-kitchen-260nw-2571823515.jpg"
+                alt=""><button>Buy</button>
+        </div>
+        <div class="seconddiv">
+            <p>Bespoke AI Laundry</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/hk_en/wd12dblb84gdsh/gallery/hk-en-wd7400d-wd12dblb84gdsc-wd12dblb84gdsh-543996219?$684_547_PNG$"
+                alt=""><button>Buy</button>
+        </div>
+        <div class="thirddiv">
+            <p>Samsung Air Conditioners</p>
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/9/CD/HB/RN/153675560/esqg318hppa-split-ac.png"
+                alt=""><button>Buy</button>
+        </div>
+        <div class="fourdiv">
+            <p>Galaxy Watch8</p>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/f2507/gallery/in-galaxy-watch8-l320-sm-l320nzsains-547660098?$684_547_PNG$"
+                alt=""><button>Buy</button>
+        </div>
+
+    </section>
+    <div class="gap"></div>
+
+    <!-- Section 8th -->
+
+    <h1 class="h1-sec-8th">Recommended for you</h1>
+
+    <section class="sec-8th">
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/rt45dg6a4db1hl/gallery/in-top-mount-freezer-twin-cooling-plus-519124-rt45dg6a4db1hl-thumb-548207764?$216_216_PNG$"
+                alt="">
+            <p>419 L Bespoke AI Double Door Refrigerato...</p>
+            <br>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>48990.00</p>
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/rt34dg5a2bslhl/gallery/in-top-mount-freezer-twin-cooling-plus-529471-rt34dg5a2bslhl-thumb-548190683?$216_216_PNG$"
+                alt="">
+            <p>330 L Bespoke AI Double Door Refrigerato...</p>
+            <br>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>36990.00</p>
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/f2507/gallery/in-galaxy-zflip7-f766-554230-sm-f766blgeins-thumb-547545787?$216_216_PNG$"
+                alt="">
+            <p>Galaxy Z Flip7 (Special Colour)</p>
+            <br><br>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>121999.00</p>
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/np750xqb-ka1in/gallery/in-galaxy-book4-edge-15-inch-np750xqbb-np750xqb-ka1in-thumb-548082110?$216_216_PNG$"
+                alt="">
+            <p>Galaxy Book4 Edge 39.62 cm, 512 GB PCIe...</p>
+            <br>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>64990.00</p>
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/np750xgk-lg2in/gallery/in-galaxy-book-np750xgk-lg2in-front-gray-thumb-541804320?$216_216_PNG$"
+                alt="">
+            <p>Galaxy Book4 39.62 cm, Core<sup>TM</sup> 5,16GB, l...</p>
+            <br>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>63000.00</p>
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-m055flgdins/gallery/in-galaxy-m05-4-gb-memory-sm-m055flgdins-thumb-543451595?$216_216_PNG$"
+                alt="">
+            <p>Galaxy M05 (4 GB Memory)</p>
+            <br><br>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>6499.00</p>
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/f2507/gallery/in-galaxy-watch-ultra-2025-l705-sm-l705fzb1ins-thumb-547659878?$216_216_PNG$"
+                alt="">
+            <p>Galaxy Watch Ultra (2025) (LTE, 4.7 cm)</p>
+            <br>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>59999.00</p>
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/f2507/gallery/in-galaxy-watch8-l320-sm-l320nzsains-thumb-547660099?$216_216_PNG$"
+                alt="">
+            <p>Galaxy Watch8 (Bluetooth, 4.0 cm)</p>
+            <br>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>32999.00</p>
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/f2507/gallery/in-galaxy-watch8-classic-l505-sm-l505fzkains-thumb-547660119?$216_216_PNG$"
+                alt="">
+            <p>Galaxy Watch8 Classic (LTE, 4.6 cm)
+            </p>
+            <br>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>32999.00</p>
+        </div>
+    </section>
+    <br><br><br><br>
+
+    <!-- Section 9th -->
+
+    <h1 class="h1-sec-9th">Explore the Stories</h1>
+    <br>
+    <section class="sec-9th">
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/assets/in/home/250716/home-explore-1-pc-312x312.jpg?$312_312_JPG$"
+                alt="">
+            <p>Galaxy AI</p>
+            <span class="card-like-btn"> <i class="fa-solid fa-heart" onclick="LikeButton(event)"></i></span>
+
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/assets/in/home/250716/home-explore-2-pc-312x312.jpg?$312_312_JPG$"
+                alt="">
+            <p>Why Galaxy</p>
+            <span class="card-like-btn"> <i class="fa-solid fa-heart" onclick="LikeButton(event)"></i></span>
+
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/assets/in/home/250716/home-explore-3-pc-312x312.jpg?$312_312_JPG$"
+                alt="">
+            <p>Switch to Galaxy</p>
+            <span class="card-like-btn"> <i class="fa-solid fa-heart" onclick="LikeButton(event)"></i></span>
+
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/assets/in/home/250716/home-explore-4-pc-312x312.jpg?$312_312_JPG$"
+                alt="">
+            <p>Your privacy.Secured.</p>
+            <span class="card-like-btn"> <i class="fa-solid fa-heart" onclick="LikeButton(event)"></i></span>
+        </div>
+        <div>
+            <img src="https://images.samsung.com/is/image/samsung/assets/in/home/250716/home-explore-5-pc-312x312.jpg?$312_312_JPG$"
+                alt="">
+            <p>Let our product ease your day</p>
+            <span class="card-like-btn"> <i class="fa-solid fa-heart" onclick="LikeButton(event)"></i></span>
+        </div>
+    </section>
+    <br><br>
+    <section class="sec-10th">
+        <p>*Images shown here are for representational purpose only, actual may vary. All features, specifications and
+            prices are
+            subject to change without prior notice. Model availability may vary from location to location.</p>
+        <p>*Image simulated. Samsung account login may be required for certain AI features.</p>
+        <p>*Image simulated. Actual UX/UI may differ. Availability of colours, sizes, models, and watch bands may vary
+            by country
+            or carrier. Products sold separately. Running coach program is available on Android phones (Android 10 or
+            above) and
+            requires Samsung Health app (v6.30.2 or above). Samsung account login required. Service only available with
+            Galaxy
+            Watch8 Series or later released Galaxy Watch Series. To use running coach program, user needs to take a
+            running level
+            test and get a level before starting the coach program.</p>
+    </section>
+    <footer class="footer">
+        <div class="footer-first-div">
+            <ul>
+                <h3>Product & Service</h3> <br>
+                <a href="">Smartphones</a> <br>
+                <a href="">Tablets</a> <br>
+                <a href="">Audio Sound</a> <br>
+                <a href="">Watches</a> <br>
+                <a href="">Smart Switch</a> <br>
+                <a href="">Mobile Accessories</a> <br>
+                <a href="">TVs</a> <br>
+                <a href="">Sound Devices</a> <br>
+                <a href="">Refrigerators</a> <br>
+                <a href="">Laundry</a> <br>
+                <a href="">Air Solutions</a> <br>
+                <a href="">Cooking Appliances</a> <br>
+                <a href="">Monitors</a> <br>
+                <a href="">Memory Storage</a> <br>
+            </ul>
+            <ul>
+                <h3>Shop</h3> <br>
+                <a href="">FAQs</a><br>
+                <a href="">Contact Us</a><br>
+                <a href="">Welcome Voucher</a><br>
+                <a href="">Samsung Referral Advantage</a><br>
+                <a href="">Samsung Student Advantage</a><br>
+                <a href="">Defence Purchase Program</a><br>
+                <a href="">Corporate Employee Program</a><br>
+                <a href="">Corporate Bulk Purchase</a><br>
+                <a href="">Samsung Experience Store</a><br>
+                <a href="">Store Locator</a><br>
+                <a href="">Smart Club</a><br>
+                <a href="">Terms of Use</a><br>
+                <a href="">Order Grievance Redressal</a><br>
+                <a href="">Explore</a><br>
+            </ul>
+            <ul>
+                <h3>Support</h3><br>
+                <a href="">WhatsApp Us<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a><br>
+                <a href="">Sign Language<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a><br>
+                <a href="">Email Us<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a><br>
+                <a href="">Call Us</a><br>
+                <a href="">Email the CEO</a><br>
+                <a href="">Community<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a><br>
+                <a href="">Product Registration</a><br>
+                <a href="">Track Repair</a><br>
+                <a href="">Service Centre</a><br>
+                <a href="">Share Your Opinion</a><br>
+                <a href="">Chat with us<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a><br>
+            </ul>
+            <ul>
+                <h3>Account & Community</h3> <br>
+                <a href="">My Page</a><br>
+                <a href="">My Products</a><br>
+                <a href="">Orders</a><br>
+                <a href="">Wishlist</a><br>
+                <a href="">Vouchers</a><br>
+                <a href="">My Referrals</a><br>
+                <a href="">Service</a><br>
+                <a href="">Community</a><br>
+            </ul>
+            <ul>
+                <h3>Sustainability</h3> <br>
+                <a href="">Environment</a><br>
+                <a href="">Security & Privacy</a><br>
+                <a href="">Accessibility</a><br>
+                <a href="">Diversity · Equity · Inclusion</a><br>
+                <a href="">Corporate Citizenship<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a><br>
+                <a href="">Corporate Sustainability<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a>
+                <br>
+                <br>
+                <h3>About Us</h3>
+                <br>
+                <a href="">Company Info</a><br>
+                <a href="">Business Area</a><br>
+                <a href="">Brand Identity</a><br>
+                <a href="">Careers</a><br>
+                <a href="">Investor Relations<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a><br>
+                <a href="">Newsroom<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a><br>
+                <a href="">Ethics</a><br>
+                <a href="">Samsung Design<i class="fa-solid fa-arrow-up" id="arrow-icon"></i></a><br>
+            </ul>
+        </div>
+        <!-- Counter Section -->
+        <div class="counter-main">
+            <h4>Our Global Achievement</h4>
+            <section class="counter-section">
+                <div class="counter-box">
+                    <div class="counter" id="million">0</div>
+                    <div class="label">Million Customers</div>
+                </div>
+                <div class="counter-box">
+                    <div class="counter" id="years">0</div>
+                    <div class="label">Years of Innovation</div>
+                </div>
+                <div class="counter-box">
+                    <div class="counter" id="countries">0</div>
+                    <div class="label">Countries</div>
+                </div>
+            </section>
+        </div>
+        <div class="service-section">
+            <h3>Services Details <i class="fa-solid fa-caret-down" onclick="Accordion(event)"></i></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quibusdam suscipit quod, id vitae
+                distinctio
+                pariatur facere quisquam consectetur eaque labore, officiis aliquam nemo quaerat, doloremque illum
+                molestiae
+                eius dolorum! Omnis, dolorum fugit deleniti accusantium nesciunt illo autem ipsam dolore necessitatibus
+                aliquid tenetur a impedit animi consectetur rem, sunt nobis doloribus tempora ut possimus! Corporis,
+                odio
+                enim sint reiciendis commodi ratione aperiam dolore eveniet eos possimus alias iure assumenda error
+                accusantium tempora, maiores tenetur pariatur ipsa officia voluptates consequatur, atque quibusdam
+                magnam.
+                Aperiam, earum sint sunt nesciunt distinctio corrupti inventore in facilis praesentium omnis? Similique
+                excepturi, error aperiam esse eius, amet quisquam, sequi iure at ullam dolore eaque officiis? Molestias
+                est
+                vel facere maiores, delectus perspiciatis iure aliquam in totam iste placeat quos dolorem quia deserunt
+                repellat ullam? Magni, quia. Nam, error voluptatum quaerat blanditiis reprehenderit consequuntur ut,
+                modi,
+                quas dolorum quis ipsum asperiores iste! Praesentium expedita pariatur vel itaque quae eius voluptatum
+                sunt
+                consequuntur, facilis neque cupiditate placeat aliquam, nihil, omnis mollitia veritatis vitae debitis
+                consequatur repudiandae perferendis doloremque minus dolorem? Qui consequuntur ullam suscipit non magnam
+                harum, nesciunt labore sapiente ipsa quas quod, ex neque et illum corporis sunt beatae blanditiis autem
+                eaque fuga est. Ipsum, tenetur ad!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore rerum
+                ipsam deleniti modi error id, magnam
+            </p>
+        </div>
+        <div class="footer-second-div">
+            <p>
+                Copyright ⓒ 1995-2025 SAMSUNG All Rights reserved.
+                <br><br>
+                Please dispose of e-waste and plastic waste responsibly.
+                <br>
+                For more information or e-waste pick up, please call 1800 5 7267864 or <a href="">click here</a> for
+                more details.
+                <br><br>
+                Registered Office Address: 6th Floor, DLF Centre, Sansad Marg, New Delhi-110001
+                <br>
+                Corporate Identification Number (CIN): U31900DL1995PTC071387
+            </p>
+        </div>
+        <div class="footer-third-div">
+            <ul>
+                <li><b>India/English</b></li>
+                <li>Privacy</li>
+                <li>Legal</li>
+                <li>CSR Policy</li>
+                <li>Sitemap</li>
+                <li><a class="footer-theme-btn" onclick="ThemeChanger()">Dark Mode</a></li>
+            </ul>
+            <ul>
+                <li>Stay in the Loop?</li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-x-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-square-whatsapp"></i></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+</html>
