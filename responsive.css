@@ -1,0 +1,252 @@
+/* Mobile */
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        font-size: 1rem;
+        padding: 0rem .1rem;
+
+    }
+
+    .header-left>li {
+        display: none;
+    }
+
+    .header-left>li:nth-child(1) {
+        display: block;
+        position: relative;
+        top: .5rem;
+    }
+
+    .header-right>div:nth-child(1) {
+        display: none;
+    }
+
+    .header-right>div:nth-child(2) {
+        position: relative;
+        right: 0rem;
+    }
+
+    .header-right div:nth-child(2) input {
+        display: none;
+    }
+
+    .header-right>div:nth-child(2)>span:nth-child(1) {
+        padding: 0.3rem 0.7rem;
+    }
+
+    .video-text {
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        color: white;
+    }
+
+    .video-text>p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .video-text-learn>span:nth-child(1) {
+        font-size: 1rem;
+    }
+
+    .video-text-learn>span:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .second-section>img {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .student-img-text {
+        position: absolute;
+        bottom: 15%;
+        left: 5%;
+    }
+
+    .student-img-text>h4 {
+        font-size: .9rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .student-img-text>p {
+        font-size: .5rem;
+        padding-bottom: .7rem;
+    }
+
+    .student-img-text>a {
+        font-size: .7rem;
+        padding: .2rem .6rem;
+    }
+
+    #section-third {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+    }
+
+    .section-third>div>img {
+        width: 90%;
+        height: auto;
+        transition: .5s;
+    }
+
+    .four-section {
+        flex-direction: column;
+    }
+
+    .four-section>.first-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .learn {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .four-section .second-div {
+        width: 100%;
+    }
+
+    .four-sec-img {
+        width: 100%;
+    }
+
+    .second-div-ai-text>p:nth-child(1) {
+        font-size: 1.4rem;
+    }
+
+    .second-div-ai-text>p:nth-child(2) {
+        font-size: .8rem
+    }
+
+    #five-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
+    }
+
+    .six-section {
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .six-section>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .six-section-div {
+        position: absolute;
+        transform: translate(-15%, 20%);
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        padding: 0rem 0rem;
+    }
+
+    .six-section>div>p {
+
+        padding-bottom: .3rem;
+    }
+
+    .learn2 {
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .learn2>span:nth-child(1) {
+        font-size: .7rem;
+    }
+
+    .learn2>span:nth-child(2) {
+        font-size: .7rem;
+
+    }
+
+    .learn2>span:nth-child(2)>a {
+        padding: .1rem .5rem;
+    }
+
+    .sec-8th>div>p {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .sec-10th {
+        padding: 0rem;
+    }
+
+    .footer-first-div {
+        flex: wrap;
+        flex-direction: column;
+    }
+
+    .footer-first-div>ul {
+        width: 100%;
+    }
+
+    .counter-main {
+        font-size: 1.7rem;
+    }
+
+    .counter-box>.counter {
+        font-size: 1.5rem;
+    }
+
+    .counter-box>.label {
+        font-size: 1rem;
+        padding: .2rem;
+    }
+
+    .footer-third-div {
+        flex-wrap: wrap;
+    }
+
+    .footer-third-div>ul:nth-child(1) {
+        padding-bottom: 1rem;
+    }
+
+    .hamburger-div-hide {
+        position: fixed;
+        height: 100vh;
+        width: 600px;
+        top: 2.7rem;
+        right: -40rem;
+        transition: 1s;
+        background-color: rgb(197, 176, 145);
+    }
+
+    .hamburger-div-show {
+        right: 0;
+        transition: 1s;
+    }
+
+    body.no-scroll {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .hamburger-backdrop-hide {
+        display: none;
+    }
+
+    .popup-main {
+        padding: .5rem;
+    }
+
+}
