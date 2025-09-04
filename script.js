@@ -23,11 +23,13 @@ function ThemeChanger() {
 function Hamburgershow() {
     document.querySelector(".hamburger-div-hide").classList.add("hamburger-div-show");
     document.querySelector(".hamburger-backdrop-hide").classList.add("hamburger-backdrop-show");
+    document.body.classList.add("no-scroll");
 }
 
 function Hamburgerhide() {
     document.querySelector(".hamburger-div-hide").classList.remove("hamburger-div-show");
     document.querySelector(".hamburger-backdrop-hide").classList.remove("hamburger-backdrop-show");
+    document.body.classList.remove("no-scroll");
 
 }
 
@@ -47,6 +49,8 @@ function Accordion(n) {
 const popUp = () => {
     document.querySelector(".popup-main").classList.toggle("popup-main-show");
     document.querySelector("body").classList.toggle("popup-body-show");
+    document.body.classList.toggle("no-scroll");
+
 }
 const greetTimeout = setTimeout(popUp, 3000);
 

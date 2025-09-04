@@ -35,7 +35,7 @@ header:hover {
 }
 
 .header-left>li {
-    padding-bottom: 14px;
+    padding-bottom: 12px;
     border-bottom: 3px solid transparent;
     transition: 0.2s;
     padding-right: 1rem;
@@ -558,7 +558,6 @@ video {
 .video-text>p {
     font-size: 3rem;
     text-align: center;
-
 }
 
 .video-text>p:nth-child(1) {
@@ -613,7 +612,6 @@ video {
     position: absolute;
     bottom: 32%;
     left: 5%;
-
 }
 
 .student-img-text>h4 {
@@ -656,7 +654,8 @@ video {
 }
 
 .section-third>div {
-    width: 20rem;
+    width: 100%;
+    /* max-width: 20rem; */
     height: 20rem;
     /* border: 1px solid black; */
     text-align: center;
@@ -666,7 +665,7 @@ video {
 
 .section-third>div>p {
     margin: 1rem;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -851,6 +850,7 @@ video {
 
 .six-section {
     background-color: black;
+
 }
 
 .six-section-div {
@@ -874,7 +874,6 @@ video {
 .learn2 {
     display: flex;
     gap: 2rem;
-
 }
 
 .learn2>span:nth-child(1) {
@@ -900,6 +899,12 @@ video {
     background-color: #f6f6f6;
     color: black;
     cursor: pointer;
+}
+
+#seven-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
 }
 
 .h1-sec-8th {
@@ -991,15 +996,14 @@ video {
     padding: .5rem;
 }
 
-.footer {
-    /* border: 1px solid black; */
+/* .footer {
+    border: 1px solid black;
 
-}
+} */
 
 .footer-first-div {
     display: flex;
     width: 100%;
-
 }
 
 .footer-first-div>ul {
@@ -1211,7 +1215,7 @@ video {
 .popup-container {
     width: 25rem;
     height: 22rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     background-color: rgb(216, 211, 211);
     display: flex;
@@ -1229,6 +1233,10 @@ video {
     right: 1rem;
     cursor: pointer;
     transition: .3s;
+}
+
+.sale-end {
+    color: red;
 }
 
 .popup-container>h3:hover {
@@ -1357,22 +1365,23 @@ video {
     border-radius: 50%;
     animation: borderGlow 2s linear infinite;
 }
- @keyframes borderGlow {
-     0% {
-         border-color: green;
-         box-shadow: 0 0 5px green;
-     }
 
-     50% {
-         border-color: lime;
-         box-shadow: 0 0 15px lime;
-     }
+@keyframes borderGlow {
+    0% {
+        border-color: green;
+        box-shadow: 0 0 5px green;
+    }
 
-     100% {
-         border-color: green;
-         box-shadow: 0 0 5px green;
-     }
- }
+    50% {
+        border-color: lime;
+        box-shadow: 0 0 15px lime;
+    }
+
+    100% {
+        border-color: green;
+        box-shadow: 0 0 5px green;
+    }
+}
 
 .chat-box-popup-feedback {
     width: auto;
@@ -1431,4 +1440,3 @@ video {
 .customer-cross-img-hide {
     display: none;
 }
-

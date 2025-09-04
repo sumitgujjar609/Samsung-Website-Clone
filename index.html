@@ -25,7 +25,7 @@
             <h2>Save Upto 50% On all items</h2>
             <button>Shop Now</button>
             <div class="countdown-main">
-                <h4>Sale Ending in :</h4>
+                <h4 class="sale-end">Sale Ending in :</h4>
                 <div class="countdown-box">
                     <div class="time-box">
                         <div id="hours">1</div>
@@ -56,7 +56,7 @@
     </div>
     <header>
         <ul class="header-left">
-            <li><img src="./Samsung_logo1-removebg-preview.png" alt="logo" width="145px"></li>
+            <li><img src="./Samsung_logo1-removebg-preview.png" alt="logo" width="145px" class="samsung-logo"></li>
 
             <!-- SHOP -->
 
@@ -628,7 +628,7 @@
                 <span><i class="fa-solid fa-cart-shopping"></i></span>
                 <span><i class="fa-solid fa-user"></i></span>
                 <span class="hamburger-span"><i class="fa-solid fa-bars" onclick="Hamburgershow()"></i>
-                    <div class="hamburger-div-hide">
+                    <div class="hamburger-div-hide" id="hamburger-div-hide">
                         <img src="./cross-svgrepo-com (1).svg" alt="" class="cross-img" onclick="Hamburgerhide()">
                         <div>Settings</div>
                         <div>Services</div>
@@ -647,9 +647,9 @@
             src="https://images.samsung.com/in/smartphones/galaxy-z-fold7/videos/galaxy-z-fold7-features-unveiling.webm?imbypass=true"
             autoplay muted loop></video>
         <div class="video-text">
-            <p>Galaxy Z Fold7  </p>
+            <p>Galaxy Z Fold7 </p>
             <p>Galaxy AI</p>
-            
+
             <div class="video-text-learn"><span>Learn more</span>
                 <span><a>Buy</a></span>
             </div>
@@ -658,16 +658,17 @@
     <div class="gap"></div>
 
     <section class="second-section">
-        <img src="https://images.samsung.com/is/image/samsung/assets/in/multistore/corporate/first-banner-update.jpg?$1440_N_JPG$" alt="">
-            <div class="student-img-text">
-                <h4>Start School <br>Stand out</h4>
-                <p>Team up and tackle math with <br>Galaxy AI</p>
-                <a href="">Buy</a>
-            </div>
+        <img src="https://images.samsung.com/is/image/samsung/assets/in/multistore/corporate/first-banner-update.jpg?$1440_N_JPG$"
+            alt="">
+        <div class="student-img-text">
+            <h4>Start School <br>Stand out</h4>
+            <p>Team up and tackle math with <br>Galaxy AI</p>
+            <a href="">Buy</a>
+        </div>
     </section>
     <div class="gap"></div>
 
-    <section class="section-third">
+    <section class="section-third" id="section-third">
         <div class="firstdiv">
             <p>Galaxy Z Flip7</p>
             <img src="https://images.samsung.com/is/image/samsung/p6pim/in/f2507/gallery/in-galaxy-zflip7-f766-sm-f766bdbeins-547545336?imbypass=true"
@@ -700,21 +701,22 @@
             </div>
         </div>
         <div class="second-div">
-            <img src="https://img.global.news.samsung.com/my/wp-content/uploads/2024/04/TV-2024-PO-PR-Banner-800x418.jpg"
+            <img class="four-sec-img"
+                src="https://img.global.news.samsung.com/my/wp-content/uploads/2024/04/TV-2024-PO-PR-Banner-800x418.jpg"
                 alt="">
             <div class="second-div-ai-text">
                 <p>Samsung Vision AI is here</p>
                 <p>QLED | NeoQLED | NeoQLED 8K | OLED | The Frame</p>
             </div>
         </div>
-        <div class="second-div-ai-text"></div>
+        <!-- <div class="second-div-ai-text"></div> -->
     </section>
     <div class="gap"></div>
 
 
     <!-- five section is same as third section so use class third section-->
     <!-- five section -->
-    <section class="section-third">
+    <section class="section-third" id="five-section">
         <div class="firstdiv">
             <p>Neo QLED 8K</p>
             <img src="https://images.samsung.com/is/image/samsung/p6pim/in/qa85qn900ckxxl/gallery/in-qled-qn900c-qa85qn900ckxxl-535909939"
@@ -754,7 +756,7 @@
     <!-- seven section is same as third section so use class third section-->
     <!-- seven section -->
 
-    <section class="section-third">
+    <section class="section-third" id="seven-section">
         <div class="firstdiv">
             <p>Bespoke AI Refrigerator</p>
             <img src="https://www.shutterstock.com/image-photo/indoor-photo-bright-modern-kitchen-260nw-2571823515.jpg"
