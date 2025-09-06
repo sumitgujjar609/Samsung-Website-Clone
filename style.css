@@ -670,7 +670,7 @@ video {
 }
 
 .section-third>div>img {
-    width: 100%;
+    width: 90%;
     height: auto;
     transition: .5s;
 }
@@ -759,8 +759,8 @@ video {
     bottom: 50px;
 }
 
-.fourdiv>img {
-    margin-top: -3.5rem;
+.section-third .fourdiv>img {
+    margin-top: -3rem;
 
 }
 
@@ -917,7 +917,7 @@ video {
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    gap: .5rem;
+    gap: .7rem;
     padding: 1rem;
     margin: 2rem;
 }
@@ -930,7 +930,7 @@ video {
 }
 
 .sec-8th>div:hover>img {
-    scale: 1.1;
+    scale: 1.05;
 }
 
 /* .sec-8th>div {
@@ -1034,7 +1034,6 @@ video {
 
 .footer-second-div>p {
     padding: 1rem;
-
     margin: 10px;
     font-size: 11px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
